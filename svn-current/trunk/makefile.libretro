@@ -326,6 +326,8 @@ endif
 
 ifeq ($(NO_MD), 1)
    MD_DIR :=
+   CPS2_DIR :=
+   SNES_DIR :=
 endif
 
 ifeq ($(NO_PCE), 1)
